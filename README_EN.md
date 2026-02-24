@@ -2,6 +2,10 @@
 
 A shared block list for X (Twitter). This repository only hosts the list data and is intended to be consumed as JSON by extensions or automation.
 
+## Extension
+
+This block list is used by the [Twitter Bot Blocker](https://chromewebstore.google.com/detail/twitter-bot-blocker/ghmmbpjgbalbncdogdecijnkdncnokpc?authuser=0&hl=tr) Chrome extension. The accounts in the blocklist are managed by **abdulkadir aktaş**. If you think there's an error or inappropriate block, you can open a PR.
+
 ## List Format
 
 The blocklist uses this format:

@@ -2,6 +2,10 @@
 
 X (Twitter) için paylaşılan ortak engelleme listesi. Bu depo yalnızca liste verisini barındırır ve eklentiler tarafından JSON olarak okunur.
 
+## Eklenti
+
+Bu engelleme listesi [Twitter Bot Blocker](https://chromewebstore.google.com/detail/twitter-bot-blocker/ghmmbpjgbalbncdogdecijnkdncnokpc?authuser=0&hl=tr) Chrome eklentisi tarafından kullanılmaktadır. Engelleme listesindeki hesaplar **abdulkadir aktaş** tarafından yönetilmektedir. Hata veya uygunsuz engelleme olduğunu düşünüyorsanız bir PR açabilirsiniz.
+
 ## Liste Formatı
 
 Blocklist şu formatta tutulur:
