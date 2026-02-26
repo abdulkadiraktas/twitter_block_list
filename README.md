@@ -30,6 +30,19 @@ Blocklist şu formatta tutulur:
 
 ## Güncelleme Akışı
 
+Yeni hesaplar eklemek için aşağıdaki scripti kullanabilirsiniz:
+
+```bash
+node scripts/add_accounts.js <kullanici_adi1> <kullanici_adi2> ...
+```
+
+Bu script otomatik olarak:
+- Hesapları küçük harfe çevirir ve @ işaretini kaldırır
+- Listeyi alfabetik sıralar
+- Version numarasını artırır
+- Updated tarihini günceller
+
+Manuel güncelleme yapacaksanız:
 1. accounts listesine yeni hesapları ekleyin veya çıkarın
 2. version değerini 1 artırın
 3. updated tarihini güncelleyin

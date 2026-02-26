@@ -30,6 +30,19 @@ The blocklist uses this format:
 
 ## Update Flow
 
+To add new accounts, you can use the following script:
+
+```bash
+node scripts/add_accounts.js <username1> <username2> ...
+```
+
+This script automatically:
+- Normalizes accounts (lowercase, removes @)
+- Sorts the list alphabetically
+- Increments the version number
+- Updates the updated date
+
+If updating manually:
 1. Add or remove accounts in accounts
 2. Increment version by 1
 3. Update the updated date
